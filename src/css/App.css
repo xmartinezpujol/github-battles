@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.repo-wrapper{
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.mess-loading {
+  margin-top: 50vh;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.languages {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #E0E0E0;
+}
+
+.languages li{
+  list-style-type: none;
+  flex: 1;
+  padding: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.languages li:hover{
+  background-color: grey;
+  color: white;
+}
+
+.languages li.active{
+  color: blue;
+}
+
+.popular-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.popular-rank{
+  font-size: 20px;
+  background-color: #FFE57F;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #FFAB00;
+  font-weight: bold;
+}
+
+.popular-item{
+  min-width: 270px;
+  margin: 20px;
+  text-align: center;
+  background-color: #FAFAFA;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.space-list-items{
+  padding: 20px;
+  margin-bottom: 7px;
+  line-height: 24px;
+}
+
+.avatar {
+  width:  150px;
+  border-radius: 20px;
+}
